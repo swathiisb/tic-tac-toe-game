@@ -4,28 +4,57 @@
 :root {
     --cell-size: 100px;
     --mark-size: calc(var(--cell-size) * .9);
+    --text:#121213;
+    --bg: #FFF2FE;
   }
   
 body{
-    margin:0px;
+    margin:0;
+    align-content: center;
+    color: var(--text);
+  background-color: var(--bg);
+  font-family: 'Akaya Telivigala', cursive;
 }
 
 .board{
     width:100vw;
-    height:100vh;
+  height:100vh;
     justify-content: center;
     align-content: center;
+    align-items: center;
+  justify-items: center;
     display:grid;
     grid-template-columns:repeat(3,auto);
 }
 
 .cell{
-    width:100px;
-    height:100px;
-    
+    width:var(--cell-size);
+    height:var(--cell-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     border:2px solid black;
-    cursor:pointer ;
+    cursor:pointer;
 }
+h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 40px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+
 
 .cell:first-child,
 .cell:nth-child(2),
