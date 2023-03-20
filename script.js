@@ -1,3 +1,4 @@
+
 function handleClick(e) {
     const cell = e.target
     const currentClass = circleTurn ? CIRCLE_CLASS : X_CLASS
@@ -11,4 +12,5 @@ function handleClick(e) {
       setBoardHoverClass()
     }
   }
+
   
