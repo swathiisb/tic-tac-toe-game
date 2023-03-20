@@ -3,8 +3,7 @@
 Tic-Tac-Toe Game
 This is a simple tic-tac-toe game developed using HTML, CSS, and JavaScript.  You can play this game using this link https://tic-tac-tangle-game.netlify.app/
 
-![Screenshot (87)](https://user-images.githubusercontent.com/90920262/226380399-e32b55c6-7a61-4b83-bd55-d0ea89abcc40.png)
-
+![tic toe](https://user-images.githubusercontent.com/90920262/226382225-55e07608-ead3-4b5f-bdfd-1af3b9e0460e.png)
 
 ## Technologies Used
 HTML
