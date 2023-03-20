@@ -6,9 +6,9 @@ This is a simple tic-tac-toe game developed using HTML, CSS, and JavaScript.  Yo
 ![tic toe](https://user-images.githubusercontent.com/90920262/226382225-55e07608-ead3-4b5f-bdfd-1af3b9e0460e.png)
 
 ## Technologies Used
-HTML
-CSS
-JavaScript
+1.HTML
+2.CSS
+3.JavaScript
 
 ## Future Improvements
 1. Implement an option to play against the computer.
